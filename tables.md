@@ -1,8 +1,9 @@
 # 创建短信服务库表
 
 ## 创建短信库
+```
 CREATE DATABASE IF NOT EXISTS ycfm_sms DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-
+```
 ### 创建发送失败记录表
 ```
 CREATE TABLE IF NOT EXISTS `sms_receipt_failed_records` (
@@ -88,9 +89,9 @@ CREATE TABLE IF NOT EXISTS `sms_templates` (
 ```
 
 ## 创建全局配置库
-
+```
 CREATE DATABASE IF NOT EXISTS ycfm_accounts DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-
+```
 ###  创建全局配置表
 ```
 CREATE TABLE IF NOT EXISTS `company_system_confs` (
