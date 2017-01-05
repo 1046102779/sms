@@ -42,6 +42,8 @@
 + mysql  
 + [rpcx微服务框架](https://github.com/smallnest/rpcx), 该框架面向服务治理  
 + [beego框架](https://beego.me/)  
++ [etcd](https://github.com/coreos/etcd)  
++ [redis](https://redis.io/)
 
 ## 说明
 
